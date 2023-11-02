@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .box{
+            width: 500px;
+            height: 200px;
+            background-color: #00a7ee;
+        }
+</style>
+<body>
+        <div class="box" onclick="dj"></div>
+    <script>
+        let box=document.querySelector('.box')
+        setTimeout(()=>{
+            box.style.backgroundColor='pink'
+        },2000)
+    </script>
+</body>
+</html>
